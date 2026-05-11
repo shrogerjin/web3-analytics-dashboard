@@ -1,0 +1,27 @@
+{
+  "name": "web3-analytics-dashboard",
+  "version": "1.0.0",
+  "description": "Real-time Web3 analytics dashboard with DeFi metrics, TVL tracking, and protocol analytics",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext js,jsx"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.10.0",
+    "web3": "^4.4.0",
+    "@tanstack/react-query": "^5.17.0",
+    "axios": "^1.6.5",
+    "buffer": "^6.0.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.11",
+    "eslint": "^8.56.0"
+  }
+}
